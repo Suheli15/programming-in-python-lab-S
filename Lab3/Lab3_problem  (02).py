@@ -1,10 +1,11 @@
 import math
 
-x1 = float(input("Enter x1 : "))
-x2 = float(input("Enter x2 : "))
-x3 = float(input("Enter x3 : "))
-x4 = float(input("Enter x4 : "))
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
 
-distense = math.sqrt((x2 - x1)**2 + (x4 - x4)**2)
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
 
-print ("The Distence Value is : " , distence)
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print("The Distance Value is:", distance)
