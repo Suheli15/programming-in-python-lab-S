@@ -7,4 +7,4 @@ x4 = float(input("Enter x4 : "))
 
 distense = math.sqrt((x2 - x1)**2 + (x4 - x4)**2)
 
-print ("The Distense Value is : " , distense)
+print ("The Distence Value is : " , distence)
