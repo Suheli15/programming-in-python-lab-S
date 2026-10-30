@@ -1,7 +1,6 @@
-
 total = 0
 
-for num in range(2, 20):
+for num in range(2, 1000):
     is_prime = True
 
     for i in range(2, num):
